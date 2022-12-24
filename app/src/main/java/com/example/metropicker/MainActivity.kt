@@ -17,7 +17,7 @@ open class MainActivity : Activity() {
     private var mSelectedStation: TextView? = null
     private var mBL: TextView? = null
 //    private lateinit var mPrefs: SharedPreferences
-    lateinit var mStorage: Storage
+    private lateinit var mStorage: Storage
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
